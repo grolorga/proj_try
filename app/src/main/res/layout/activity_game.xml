@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <!--    <TextView
+                         android:id="@+id/firstScoreCount"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center_horizontal"
+                         android:background="@drawable/button_background"
+                         android:paddingStart="5dp"
+                         android:paddingEnd="5dp"
+                         android:text="@string/ZeroScore"
+                         android:textColor="@android:color/white"
+                         android:textSize="20sp" />-->
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/SecondScore"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/live4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon" />
+
+                    <ImageView
+                        android:id="@+id/live5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon" />
+
+                    <ImageView
+                        android:id="@+id/live6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon" />
+
+                </LinearLayout>
+
+                <!--  <TextView
+                         android:id="@+id/secondScoreCount"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center_horizontal"
+                         android:background="@drawable/button_background"
+                         android:paddingStart="5dp"
+                         android:paddingEnd="5dp"
+                         android:text="@string/ZeroScore"
+                         android:textColor="@android:color/white"
+                         android:textSize="20sp" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/FirstScore"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/live1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon" />
+
+                    <ImageView
+                        android:id="@+id/live2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon" />
+
+                    <ImageView
+                        android:id="@+id/live3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout4"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal "
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/button_card4"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:maxWidth="100dp"
+                android:text="@string/card_info_placeholder"
+                android:textAppearance="@style/CustomTextStyle"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_card1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_info_placeholder" />
+
+            <Button
+                android:id="@+id/button_card2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_info_placeholder" />
+
+            <Button
+                android:id="@+id/button_card3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_info_placeholder" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout2"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="164dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/exitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit" />
+
+            <Button
+                android:id="@+id/endMove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/endMoveText" />
+
+            <Button
+                android:id="@+id/startMove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/startMoveText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

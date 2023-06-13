@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "Зефир",
+    "image": "i1",
+    "power": 10,
+    "special": false
+  },
+  {
+    "id": 2,
+    "name": "Ксено",
+    "image": "i2",
+    "power": 5,
+    "special": false
+  },
+  {
+    "id": 3,
+    "name": "Янтр",
+    "image": "i3",
+    "power": 10,
+    "special": false
+  },
+  {
+    "id": 4,
+    "name": "Люме",
+    "image": "i4",
+    "power": 5,
+    "special": false
+  },
+  {
+    "id": 5,
+    "name": "Психо",
+    "image": "i5",
+    "power": 20,
+    "special": false
+  },
+  {
+    "id": 6,
+    "name": "Крио",
+    "image": "i6",
+    "power": 5,
+    "special": false
+  },
+  {
+    "id": 7,
+    "name": "Флор",
+    "image": "i7",
+    "power": 9,
+    "special": false
+  },
+  {
+    "id": 8,
+    "name": "Экзо",
+    "image": "i8",
+    "power": 5,
+    "special": false
+  },
+  {
+    "id": 9,
+    "name": "Хром",
+    "image": "i9",
+    "power": 12,
+    "special": false
+  },
+  {
+    "id": 10,
+    "name": "Тайга",
+    "image": "i10",
+    "power": 15,
+    "special": false
+  },
+  {
+    "id": 11,
+    "name": "Грин",
+    "image": "i11",
+    "power": 10,
+    "special": false
+  },
+  {
+    "id": 12,
+    "name": "Блэк",
+    "image": "i12",
+    "power": 8,
+    "special": false
+  },
+  {
+    "id": 13,
+    "name": "Сильв",
+    "image": "i13",
+    "power": 13,
+    "special": false
+  },
+  {
+    "id": 14,
+    "name": "Разор",
+    "image": "i14",
+    "power": 6,
+    "special": false
+  },
+  {
+    "id": 15,
+    "name": "Эдем",
+    "image": "i15",
+    "power": 7,
+    "special": false
+  },
+  {
+    "id": 16,
+    "name": "Санс",
+    "image": "i16",
+    "power": 4,
+    "special": false
+  },
+  {
+    "id": 17,
+    "name": "Клейн",
+    "image": "i17",
+    "power": 10,
+    "special": false
+  },
+  {
+    "id": 18,
+    "name": "Глам",
+    "image": "i18",
+    "power": 6,
+    "special": false
+  },
+  {
+    "id": 19,
+    "name": "Кошм",
+    "image": "i19",
+    "power": 11,
+    "special": false
+  },
+  {
+    "id": 20,
+    "name": "Джазз",
+    "image": "i20",
+    "power": 14,
+    "special": false
+  },
+  {
+    "id": 21,
+    "name": "Майор",
+    "image": "i21",
+    "power": 1,
+    "special": false
+  },
+  {
+    "id": 22,
+    "name": "Суд",
+    "image": "i22",
+    "power": 19,
+    "special": false
+  }
+]

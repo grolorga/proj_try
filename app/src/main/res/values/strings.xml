@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">proj_try</string>
+    <string name='card_info_placeholder'></string>
+    <string name="FirstScore">Счёт первого игрока:</string>
+    <string name="SecondScore">Счёт второго игрока:</string>
+    <string name="StartButtonText">Начать игру</string>
+    <string name="ZeroScore">0</string>
+    <string name="endMoveText">Закончить ход</string>
+    <string name="startMoveText">Начать ход</string>
+    <string name="exit">Закончить игру</string>
+    <string name="Round">Раунд</string>
+    <string name="endgametext">Endgame</string>
+    <string name="Press_start">Нажмите начать ход</string>
+</resources>
